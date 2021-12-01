@@ -9,7 +9,7 @@
         "baseUrl": "../",
         "typeRoots": ["../"],
         "paths": {
-            "@dhis2-ui/*": ["dhis2-ui__loader"]
+            "@dhis2-ui/loader": ["dhis2-ui__loader"]
         },
         "jsx": "react-jsx",
         "types": [],

@@ -9,7 +9,7 @@
         "baseUrl": "../",
         "typeRoots": ["../"],
         "paths": {
-            "@dhis2-ui/divider": ["dhis2-ui__divider"]
+            "@dhis2-ui/layer": ["dhis2-ui__layer"]
         },
         "jsx": "react-jsx",
         "types": [],
@@ -18,6 +18,6 @@
     },
     "files": [
         "index.d.ts",
-        "dhis2-ui__divider-tests.tsx"
+        "dhis2-ui__layer-tests.tsx"
     ]
 }
