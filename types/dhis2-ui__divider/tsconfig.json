@@ -4,17 +4,20 @@
         "lib": ["es6", "DOM"],
         "noImplicitAny": true,
         "noImplicitThis": true,
-        "strictNullChecks": true,
         "strictFunctionTypes": true,
+        "strictNullChecks": true,
         "baseUrl": "../",
         "typeRoots": ["../"],
         "paths": {
-            "@dhis2/*": ["dhis2__*"],
-            "@dhis2-ui/*": ["dhis2-ui__*"],
+            "@dhis2-ui/*": ["dhis2-ui__divider"]
         },
+        "jsx": "react-jsx",
         "types": [],
         "noEmit": true,
         "forceConsistentCasingInFileNames": true
     },
-    "files": ["index.d.ts"]
-  }
+    "files": [
+        "index.d.ts",
+        "dhis2-ui__divider-tests.tsx"
+    ]
+}
