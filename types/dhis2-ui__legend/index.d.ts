@@ -1,0 +1,26 @@
+// Type definitions for @dhis2-ui/legend 7.8
+// Project: https://github.com/dhis2/ui/tree/master/components/legend
+// Definitions by: Alexis Rico <https://github.com/SferaDev>
+// Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
+// TypeScript Version: 4.1
+
+import type { FC, ReactNode } from 'react';
+
+/**
+ * Legend.propTypes = {
+    children: PropTypes.node,
+    className: PropTypes.string,
+    dataTest: PropTypes.string,
+    required: PropTypes.bool,
+}
+ */
+
+export interface LegendProps {
+    children?: ReactNode;
+    className?: string;
+    dataTest?: string;
+    required?: boolean;
+}
+
+// https://github.com/dhis2/ui/blob/master/components/legend/src/index.js
+export const Legend: FC<LegendProps>;
